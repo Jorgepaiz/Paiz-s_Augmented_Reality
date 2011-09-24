@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88AF8359142E560D008B0689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF8358142E560D008B0689 /* UIKit.framework */; };
+		88AF835B142E560D008B0689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF835A142E560D008B0689 /* Foundation.framework */; };
+		88AF835D142E560D008B0689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF835C142E560D008B0689 /* CoreGraphics.framework */; };
+		88AF8363142E560D008B0689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8361142E560D008B0689 /* InfoPlist.strings */; };
+		88AF8365142E560D008B0689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8364142E560D008B0689 /* main.m */; };
+		88AF8369142E560D008B0689 /* CameraTestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8368142E560D008B0689 /* CameraTestingAppDelegate.m */; };
+		88AF836D142E560D008B0689 /* CameraTestingAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF836C142E560D008B0689 /* CameraTestingAppDelegate_iPhone.m */; };
+		88AF8370142E560E008B0689 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF836E142E560E008B0689 /* MainWindow_iPhone.xib */; };
+		88AF8374142E560E008B0689 /* CameraTestingAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8373142E560E008B0689 /* CameraTestingAppDelegate_iPad.m */; };
+		88AF8377142E560E008B0689 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8375142E560E008B0689 /* MainWindow_iPad.xib */; };
+		88AF8380142E562D008B0689 /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF837E142E562D008B0689 /* iPhoneViewController.m */; };
+		88AF8381142E562D008B0689 /* iPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF837F142E562D008B0689 /* iPhoneViewController.xib */; };
+		88AF8385142E5645008B0689 /* iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8383142E5645008B0689 /* iPadViewController.m */; };
+		88AF8386142E5645008B0689 /* iPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8384142E5645008B0689 /* iPadViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88AF8354142E560D008B0689 /* CameraTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AF8358142E560D008B0689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88AF835A142E560D008B0689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88AF835C142E560D008B0689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88AF8360142E560D008B0689 /* CameraTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraTesting-Info.plist"; sourceTree = "<group>"; };
+		88AF8362142E560D008B0689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88AF8364142E560D008B0689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88AF8366142E560D008B0689 /* CameraTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraTesting-Prefix.pch"; sourceTree = "<group>"; };
+		88AF8367142E560D008B0689 /* CameraTestingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraTestingAppDelegate.h; sourceTree = "<group>"; };
+		88AF8368142E560D008B0689 /* CameraTestingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraTestingAppDelegate.m; sourceTree = "<group>"; };
+		88AF836B142E560D008B0689 /* CameraTestingAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraTestingAppDelegate_iPhone.h; path = iPhone/CameraTestingAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		88AF836C142E560D008B0689 /* CameraTestingAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CameraTestingAppDelegate_iPhone.m; path = iPhone/CameraTestingAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		88AF836F142E560E008B0689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		88AF8372142E560E008B0689 /* CameraTestingAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraTestingAppDelegate_iPad.h; path = iPad/CameraTestingAppDelegate_iPad.h; sourceTree = "<group>"; };
+		88AF8373142E560E008B0689 /* CameraTestingAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CameraTestingAppDelegate_iPad.m; path = iPad/CameraTestingAppDelegate_iPad.m; sourceTree = "<group>"; };
+		88AF8376142E560E008B0689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		88AF837D142E562D008B0689 /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneViewController.h; path = iPhone/iPhoneViewController.h; sourceTree = "<group>"; };
+		88AF837E142E562D008B0689 /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneViewController.m; path = iPhone/iPhoneViewController.m; sourceTree = "<group>"; };
+		88AF837F142E562D008B0689 /* iPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPhoneViewController.xib; path = iPhone/iPhoneViewController.xib; sourceTree = "<group>"; };
+		88AF8382142E5645008B0689 /* iPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPadViewController.h; path = iPad/iPadViewController.h; sourceTree = "<group>"; };
+		88AF8383142E5645008B0689 /* iPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPadViewController.m; path = iPad/iPadViewController.m; sourceTree = "<group>"; };
+		88AF8384142E5645008B0689 /* iPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPadViewController.xib; path = iPad/iPadViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88AF8351142E560D008B0689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF8359142E560D008B0689 /* UIKit.framework in Frameworks */,
+				88AF835B142E560D008B0689 /* Foundation.framework in Frameworks */,
+				88AF835D142E560D008B0689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88AF8349142E560D008B0689 = {
+			isa = PBXGroup;
+			children = (
+				88AF835E142E560D008B0689 /* CameraTesting */,
+				88AF8357142E560D008B0689 /* Frameworks */,
+				88AF8355142E560D008B0689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88AF8355142E560D008B0689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8354142E560D008B0689 /* CameraTesting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AF8357142E560D008B0689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8358142E560D008B0689 /* UIKit.framework */,
+				88AF835A142E560D008B0689 /* Foundation.framework */,
+				88AF835C142E560D008B0689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88AF835E142E560D008B0689 /* CameraTesting */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8367142E560D008B0689 /* CameraTestingAppDelegate.h */,
+				88AF8368142E560D008B0689 /* CameraTestingAppDelegate.m */,
+				88AF836A142E560D008B0689 /* iPhone */,
+				88AF8371142E560E008B0689 /* iPad */,
+				88AF835F142E560D008B0689 /* Supporting Files */,
+			);
+			path = CameraTesting;
+			sourceTree = "<group>";
+		};
+		88AF835F142E560D008B0689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8360142E560D008B0689 /* CameraTesting-Info.plist */,
+				88AF8361142E560D008B0689 /* InfoPlist.strings */,
+				88AF8364142E560D008B0689 /* main.m */,
+				88AF8366142E560D008B0689 /* CameraTesting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88AF836A142E560D008B0689 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				88AF836B142E560D008B0689 /* CameraTestingAppDelegate_iPhone.h */,
+				88AF836C142E560D008B0689 /* CameraTestingAppDelegate_iPhone.m */,
+				88AF836E142E560E008B0689 /* MainWindow_iPhone.xib */,
+				88AF837D142E562D008B0689 /* iPhoneViewController.h */,
+				88AF837E142E562D008B0689 /* iPhoneViewController.m */,
+				88AF837F142E562D008B0689 /* iPhoneViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		88AF8371142E560E008B0689 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8372142E560E008B0689 /* CameraTestingAppDelegate_iPad.h */,
+				88AF8373142E560E008B0689 /* CameraTestingAppDelegate_iPad.m */,
+				88AF8375142E560E008B0689 /* MainWindow_iPad.xib */,
+				88AF8382142E5645008B0689 /* iPadViewController.h */,
+				88AF8383142E5645008B0689 /* iPadViewController.m */,
+				88AF8384142E5645008B0689 /* iPadViewController.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88AF8353142E560D008B0689 /* CameraTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AF837A142E560E008B0689 /* Build configuration list for PBXNativeTarget "CameraTesting" */;
+			buildPhases = (
+				88AF8350142E560D008B0689 /* Sources */,
+				88AF8351142E560D008B0689 /* Frameworks */,
+				88AF8352142E560D008B0689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraTesting;
+			productName = CameraTesting;
+			productReference = 88AF8354142E560D008B0689 /* CameraTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88AF834B142E560D008B0689 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 88AF834E142E560D008B0689 /* Build configuration list for PBXProject "CameraTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88AF8349142E560D008B0689;
+			productRefGroup = 88AF8355142E560D008B0689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88AF8353142E560D008B0689 /* CameraTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88AF8352142E560D008B0689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF8363142E560D008B0689 /* InfoPlist.strings in Resources */,
+				88AF8370142E560E008B0689 /* MainWindow_iPhone.xib in Resources */,
+				88AF8377142E560E008B0689 /* MainWindow_iPad.xib in Resources */,
+				88AF8381142E562D008B0689 /* iPhoneViewController.xib in Resources */,
+				88AF8386142E5645008B0689 /* iPadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88AF8350142E560D008B0689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF8365142E560D008B0689 /* main.m in Sources */,
+				88AF8369142E560D008B0689 /* CameraTestingAppDelegate.m in Sources */,
+				88AF836D142E560D008B0689 /* CameraTestingAppDelegate_iPhone.m in Sources */,
+				88AF8374142E560E008B0689 /* CameraTestingAppDelegate_iPad.m in Sources */,
+				88AF8380142E562D008B0689 /* iPhoneViewController.m in Sources */,
+				88AF8385142E5645008B0689 /* iPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88AF8361142E560D008B0689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF8362142E560D008B0689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88AF836E142E560E008B0689 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF836F142E560E008B0689 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		88AF8375142E560E008B0689 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF8376142E560E008B0689 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88AF8378142E560E008B0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88AF8379142E560E008B0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88AF837B142E560E008B0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraTesting/CameraTesting-Prefix.pch";
+				INFOPLIST_FILE = "CameraTesting/CameraTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88AF837C142E560E008B0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraTesting/CameraTesting-Prefix.pch";
+				INFOPLIST_FILE = "CameraTesting/CameraTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88AF834E142E560D008B0689 /* Build configuration list for PBXProject "CameraTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF8378142E560E008B0689 /* Debug */,
+				88AF8379142E560E008B0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88AF837A142E560E008B0689 /* Build configuration list for PBXNativeTarget "CameraTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF837B142E560E008B0689 /* Debug */,
+				88AF837C142E560E008B0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88AF834B142E560D008B0689 /* Project object */;
+}
