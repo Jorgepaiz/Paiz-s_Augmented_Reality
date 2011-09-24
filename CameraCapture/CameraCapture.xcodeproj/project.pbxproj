@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88AF83A7142E5814008B0689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF8395142E57E7008B0689 /* Foundation.framework */; };
+		88AF83AD142E5814008B0689 /* PaizCameraCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF83AC142E5814008B0689 /* PaizCameraCapture.m */; };
+		88AF83B3142E58B6008B0689 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF83B1142E58AF008B0689 /* AVFoundation.framework */; };
+		88AF83B6142E5C40008B0689 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF83B4142E5C32008B0689 /* CoreVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88AF8395142E57E7008B0689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88AF83A6142E5814008B0689 /* libPaizCameraCapture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaizCameraCapture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AF83AA142E5814008B0689 /* PaizCameraCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaizCameraCapture-Prefix.pch"; sourceTree = "<group>"; };
+		88AF83AB142E5814008B0689 /* PaizCameraCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaizCameraCapture.h; sourceTree = "<group>"; };
+		88AF83AC142E5814008B0689 /* PaizCameraCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaizCameraCapture.m; sourceTree = "<group>"; };
+		88AF83B1142E58AF008B0689 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88AF83B4142E5C32008B0689 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88AF83A3142E5814008B0689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF83B3142E58B6008B0689 /* AVFoundation.framework in Frameworks */,
+				88AF83B6142E5C40008B0689 /* CoreVideo.framework in Frameworks */,
+				88AF83A7142E5814008B0689 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88AF8387142E57E7008B0689 = {
+			isa = PBXGroup;
+			children = (
+				88AF83A8142E5814008B0689 /* PaizCameraCapture */,
+				88AF8394142E57E7008B0689 /* Frameworks */,
+				88AF8393142E57E7008B0689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88AF8393142E57E7008B0689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88AF83A6142E5814008B0689 /* libPaizCameraCapture.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AF8394142E57E7008B0689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88AF83B1142E58AF008B0689 /* AVFoundation.framework */,
+				88AF83B4142E5C32008B0689 /* CoreVideo.framework */,
+				88AF8395142E57E7008B0689 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88AF83A8142E5814008B0689 /* PaizCameraCapture */ = {
+			isa = PBXGroup;
+			children = (
+				88AF83AB142E5814008B0689 /* PaizCameraCapture.h */,
+				88AF83AC142E5814008B0689 /* PaizCameraCapture.m */,
+				88AF83A9142E5814008B0689 /* Supporting Files */,
+			);
+			path = PaizCameraCapture;
+			sourceTree = "<group>";
+		};
+		88AF83A9142E5814008B0689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88AF83AA142E5814008B0689 /* PaizCameraCapture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		88AF83A4142E5814008B0689 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		88AF83A5142E5814008B0689 /* PaizCameraCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AF83AE142E5814008B0689 /* Build configuration list for PBXNativeTarget "PaizCameraCapture" */;
+			buildPhases = (
+				88AF83A2142E5814008B0689 /* Sources */,
+				88AF83A3142E5814008B0689 /* Frameworks */,
+				88AF83A4142E5814008B0689 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaizCameraCapture;
+			productName = PaizCameraCapture;
+			productReference = 88AF83A6142E5814008B0689 /* libPaizCameraCapture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88AF8389142E57E7008B0689 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 88AF838C142E57E7008B0689 /* Build configuration list for PBXProject "CameraCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88AF8387142E57E7008B0689;
+			productRefGroup = 88AF8393142E57E7008B0689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88AF83A5142E5814008B0689 /* PaizCameraCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88AF83A2142E5814008B0689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF83AD142E5814008B0689 /* PaizCameraCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88AF839D142E57E7008B0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88AF839E142E57E7008B0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88AF83AF142E5814008B0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PaizCameraCapture.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaizCameraCapture/PaizCameraCapture-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88AF83B0142E5814008B0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PaizCameraCapture.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaizCameraCapture/PaizCameraCapture-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88AF838C142E57E7008B0689 /* Build configuration list for PBXProject "CameraCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF839D142E57E7008B0689 /* Debug */,
+				88AF839E142E57E7008B0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88AF83AE142E5814008B0689 /* Build configuration list for PBXNativeTarget "PaizCameraCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF83AF142E5814008B0689 /* Debug */,
+				88AF83B0142E5814008B0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88AF8389142E57E7008B0689 /* Project object */;
+}
