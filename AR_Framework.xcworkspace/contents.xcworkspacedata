@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PaizFoundation/PaizFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CameraCapture/CameraCapture.xcodeproj">
    </FileRef>
    <FileRef
