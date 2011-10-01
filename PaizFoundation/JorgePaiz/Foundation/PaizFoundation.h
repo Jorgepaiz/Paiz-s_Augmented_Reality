@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PaizFoundation : NSObject
+#import "Paiz_Contants.h"
 
-@end
+#import "Paiz_Macro_Singleton.h"
