@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88AE8558142ECD420096492C /* libPaizCameraCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AE8557142ECD420096492C /* libPaizCameraCapture.a */; };
+		88AE855F142ECD790096492C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AE8559142ECD6C0096492C /* AVFoundation.framework */; };
+		88AE8560142ECD7B0096492C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AE855A142ECD6C0096492C /* CoreMedia.framework */; };
+		88AE8561142ECD7D0096492C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AE855B142ECD6C0096492C /* CoreVideo.framework */; };
+		88AE856A142ED07E0096492C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AE8568142ED0720096492C /* QuartzCore.framework */; };
+		88AE8574142ED9D00096492C /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE856E142ED9CF0096492C /* GLView.m */; };
+		88AE8575142ED9D00096492C /* OpenGLTexture3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE856F142ED9CF0096492C /* OpenGLTexture3D.m */; };
+		88AE8579142EDA7F0096492C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AE8577142EDA780096492C /* OpenGLES.framework */; };
 		88AF8359142E560D008B0689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF8358142E560D008B0689 /* UIKit.framework */; };
 		88AF835B142E560D008B0689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF835A142E560D008B0689 /* Foundation.framework */; };
 		88AF835D142E560D008B0689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF835C142E560D008B0689 /* CoreGraphics.framework */; };
@@ -24,6 +32,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88AE8557142ECD420096492C /* libPaizCameraCapture.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPaizCameraCapture.a; path = "../../../Library/Developer/Xcode/DerivedData/AR_Framework-gptwejundntxssfnjhvgyffgxmdp/Build/Products/Debug-iphoneos/libPaizCameraCapture.a"; sourceTree = "<group>"; };
+		88AE8559142ECD6C0096492C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88AE855A142ECD6C0096492C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		88AE855B142ECD6C0096492C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		88AE8568142ED0720096492C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88AE856E142ED9CF0096492C /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		88AE856F142ED9CF0096492C /* OpenGLTexture3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLTexture3D.m; sourceTree = "<group>"; };
+		88AE8570142ED9CF0096492C /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsAndMacros.h; sourceTree = "<group>"; };
+		88AE8571142ED9CF0096492C /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		88AE8572142ED9D00096492C /* OpenGLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLCommon.h; sourceTree = "<group>"; };
+		88AE8573142ED9D00096492C /* OpenGLTexture3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLTexture3D.h; sourceTree = "<group>"; };
+		88AE8577142EDA780096492C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		88AF8354142E560D008B0689 /* CameraTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AF8358142E560D008B0689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88AF835A142E560D008B0689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,18 +73,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AF8359142E560D008B0689 /* UIKit.framework in Frameworks */,
-				88AF835B142E560D008B0689 /* Foundation.framework in Frameworks */,
+				88AE8579142EDA7F0096492C /* OpenGLES.framework in Frameworks */,
+				88AE856A142ED07E0096492C /* QuartzCore.framework in Frameworks */,
+				88AE855F142ECD790096492C /* AVFoundation.framework in Frameworks */,
+				88AE8560142ECD7B0096492C /* CoreMedia.framework in Frameworks */,
+				88AE8561142ECD7D0096492C /* CoreVideo.framework in Frameworks */,
 				88AF835D142E560D008B0689 /* CoreGraphics.framework in Frameworks */,
+				88AF835B142E560D008B0689 /* Foundation.framework in Frameworks */,
+				88AE8558142ECD420096492C /* libPaizCameraCapture.a in Frameworks */,
+				88AF8359142E560D008B0689 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88AE8576142ED9DA0096492C /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				88AE856E142ED9CF0096492C /* GLView.m */,
+				88AE856F142ED9CF0096492C /* OpenGLTexture3D.m */,
+				88AE8570142ED9CF0096492C /* ConstantsAndMacros.h */,
+				88AE8571142ED9CF0096492C /* GLView.h */,
+				88AE8572142ED9D00096492C /* OpenGLCommon.h */,
+				88AE8573142ED9D00096492C /* OpenGLTexture3D.h */,
+			);
+			name = GL;
+			sourceTree = "<group>";
+		};
 		88AF8349142E560D008B0689 = {
 			isa = PBXGroup;
 			children = (
+				88AE8576142ED9DA0096492C /* GL */,
+				88AE8557142ECD420096492C /* libPaizCameraCapture.a */,
 				88AF835E142E560D008B0689 /* CameraTesting */,
 				88AF8357142E560D008B0689 /* Frameworks */,
 				88AF8355142E560D008B0689 /* Products */,
@@ -82,6 +123,11 @@
 		88AF8357142E560D008B0689 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88AE8577142EDA780096492C /* OpenGLES.framework */,
+				88AE8568142ED0720096492C /* QuartzCore.framework */,
+				88AE8559142ECD6C0096492C /* AVFoundation.framework */,
+				88AE855A142ECD6C0096492C /* CoreMedia.framework */,
+				88AE855B142ECD6C0096492C /* CoreVideo.framework */,
 				88AF8358142E560D008B0689 /* UIKit.framework */,
 				88AF835A142E560D008B0689 /* Foundation.framework */,
 				88AF835C142E560D008B0689 /* CoreGraphics.framework */,
@@ -206,6 +252,8 @@
 				88AF8374142E560E008B0689 /* CameraTestingAppDelegate_iPad.m in Sources */,
 				88AF8380142E562D008B0689 /* iPhoneViewController.m in Sources */,
 				88AF8385142E5645008B0689 /* iPadViewController.m in Sources */,
+				88AE8574142ED9D00096492C /* GLView.m in Sources */,
+				88AE8575142ED9D00096492C /* OpenGLTexture3D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +306,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../PaizFoundation/\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -276,6 +325,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../PaizFoundation/\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -289,7 +339,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraTesting/CameraTesting-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../PaizFoundation/\"",
+					"\"$(SRCROOT)/../CameraCapture/\"",
+				);
 				INFOPLIST_FILE = "CameraTesting/CameraTesting-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/AR_Framework-gptwejundntxssfnjhvgyffgxmdp/Build/Products/Debug-iphoneos\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -300,7 +358,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraTesting/CameraTesting-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../PaizFoundation/\"",
+					"\"$(SRCROOT)/../CameraCapture/\"",
+				);
 				INFOPLIST_FILE = "CameraTesting/CameraTesting-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/AR_Framework-gptwejundntxssfnjhvgyffgxmdp/Build/Products/Debug-iphoneos\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -325,6 +391,7 @@
 				88AF837C142E560E008B0689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

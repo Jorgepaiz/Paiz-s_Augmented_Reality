@@ -8,7 +8,12 @@
 
 #import "iPhoneViewController.h"
 
+
+
 @implementation iPhoneViewController
+
+@synthesize cameraView      = _cameraView;
+@synthesize cameraCapture   = _cameraCupture;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -21,10 +26,7 @@
 
 - (void)didReceiveMemoryWarning
 {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
@@ -32,20 +34,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    self.cameraCapture = [[PaizCameraManager alloc] initWithView:self.cameraView];
+    
+    NSLog(@"Library version %i.%i.%i", PAIZ_MAJOR_VERSION, PAIZ_MINOR_VERSION, PAIZ_SUBMINOR_VERSION);
 }
 
 - (void)viewDidUnload
-{
+{    
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    
+    self.cameraView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+-(void)dealloc
+{
+    [self.cameraView release];
+    [self.cameraCapture release];
+    
+    [super dealloc];
 }
 
 @end

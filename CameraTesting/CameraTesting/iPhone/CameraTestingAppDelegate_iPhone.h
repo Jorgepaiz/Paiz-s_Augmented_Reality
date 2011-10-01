@@ -8,6 +8,7 @@
 
 #import "CameraTestingAppDelegate.h"
 
+
 @class iPhoneViewController;
 
 @interface CameraTestingAppDelegate_iPhone : CameraTestingAppDelegate

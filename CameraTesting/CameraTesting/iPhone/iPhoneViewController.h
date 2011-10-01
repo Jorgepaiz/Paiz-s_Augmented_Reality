@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#import <JorgePaiz/CameraCapture/PaizCameraCapture.h>
+
+
 @interface iPhoneViewController : UIViewController
+{
+    UIView  *cameraView;
+    PaizCameraManager *cameraCupture;
+}
+
+@property (nonatomic, retain) IBOutlet UIView   *cameraView;
+@property (nonatomic, retain) PaizCameraManager *cameraCapture;
 
 @end

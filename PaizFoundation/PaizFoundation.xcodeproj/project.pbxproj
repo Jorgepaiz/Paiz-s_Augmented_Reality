@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88AE853C142EBE8B0096492C /* Paiz_Contants.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AE853A142EBE8B0096492C /* Paiz_Contants.h */; };
+		88AE853D142EBE8B0096492C /* Paiz_Macro_Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AE853B142EBE8B0096492C /* Paiz_Macro_Singleton.h */; };
+		88AE853F142EBF940096492C /* PaizFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AE853E142EBF940096492C /* PaizFoundation.h */; };
 		88C5B7AC142E5E3A00DFD65E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C5B7AB142E5E3A00DFD65E /* Foundation.framework */; };
-		88C5B7B2142E5E3A00DFD65E /* PaizFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5B7B1142E5E3A00DFD65E /* PaizFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88AE853A142EBE8B0096492C /* Paiz_Contants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Paiz_Contants.h; path = JorgePaiz/Foundation/Paiz_Contants.h; sourceTree = "<group>"; };
+		88AE853B142EBE8B0096492C /* Paiz_Macro_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Paiz_Macro_Singleton.h; path = JorgePaiz/Foundation/Paiz_Macro_Singleton.h; sourceTree = "<group>"; };
+		88AE853E142EBF940096492C /* PaizFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaizFoundation.h; path = JorgePaiz/Foundation/PaizFoundation.h; sourceTree = "<group>"; };
 		88C5B7A8142E5E3A00DFD65E /* libPaizFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaizFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C5B7AB142E5E3A00DFD65E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88C5B7AF142E5E3A00DFD65E /* PaizFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaizFoundation-Prefix.pch"; sourceTree = "<group>"; };
-		88C5B7B0142E5E3A00DFD65E /* PaizFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaizFoundation.h; sourceTree = "<group>"; };
-		88C5B7B1142E5E3A00DFD65E /* PaizFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaizFoundation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,10 +34,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88AE8538142EBE3F0096492C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		88AE8539142EBE420096492C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				88AE853E142EBF940096492C /* PaizFoundation.h */,
+				88AE853A142EBE8B0096492C /* Paiz_Contants.h */,
+				88AE853B142EBE8B0096492C /* Paiz_Macro_Singleton.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 		88C5B79D142E5E3A00DFD65E = {
 			isa = PBXGroup;
 			children = (
-				88C5B7AD142E5E3A00DFD65E /* PaizFoundation */,
+				88AE8539142EBE420096492C /* Headers */,
+				88AE8538142EBE3F0096492C /* Sources */,
+				88C5B7AE142E5E3A00DFD65E /* Supporting Files */,
 				88C5B7AA142E5E3A00DFD65E /* Frameworks */,
 				88C5B7A9142E5E3A00DFD65E /* Products */,
 			);
@@ -56,22 +78,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		88C5B7AD142E5E3A00DFD65E /* PaizFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				88C5B7B0142E5E3A00DFD65E /* PaizFoundation.h */,
-				88C5B7B1142E5E3A00DFD65E /* PaizFoundation.m */,
-				88C5B7AE142E5E3A00DFD65E /* Supporting Files */,
-			);
-			path = PaizFoundation;
-			sourceTree = "<group>";
-		};
 		88C5B7AE142E5E3A00DFD65E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				88C5B7AF142E5E3A00DFD65E /* PaizFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = PaizFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +94,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AE853C142EBE8B0096492C /* Paiz_Contants.h in Headers */,
+				88AE853D142EBE8B0096492C /* Paiz_Macro_Singleton.h in Headers */,
+				88AE853F142EBF940096492C /* PaizFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C5B7B2142E5E3A00DFD65E /* PaizFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +241,7 @@
 				88C5B7B7142E5E3A00DFD65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
